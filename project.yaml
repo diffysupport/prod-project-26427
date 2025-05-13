@@ -9,7 +9,6 @@ basic:
         - 1024
         - 1200
     pages:
-        - /
         - board-portal
         - secure-board-portal
         - pricing
