@@ -9,6 +9,7 @@ basic:
         - 1024
         - 1200
     pages:
+        - /
         - board-portal
         - secure-board-portal
         - pricing
@@ -35,7 +36,6 @@ basic:
         - contact-support
         - all-rights-reserved
         - privacy-policy
-        - /
     monitoring:
         days: {  }
         type: ''
