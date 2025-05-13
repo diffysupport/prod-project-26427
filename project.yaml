@@ -1,0 +1,63 @@
+basic:
+    name: BoardEffect
+    environments:
+        production: 'https://www.boardeffect.com/'
+        staging: ''
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - board-portal
+        - secure-board-portal
+        - pricing
+        - how-it-works
+        - board-meeting-software
+        - annual-board-meeting
+        - board-development
+        - client-success
+        - resources
+        - blog
+        - whitepapers
+        - boardroom-technology-board-portal-buyers-guide
+        - webinars
+        - request-a-demo
+        - nonprofit-board-portal
+        - healthcare-board-portal
+        - higher-education-board-portal
+        - community-banking-board-portal
+        - modern-governance-how-to-guide
+        - 7-rules-of-virtual-board-engagement
+        - technology-best-practices-for-governance-professionals
+        - home
+        - about
+        - contact-support
+        - all-rights-reserved
+        - privacy-policy
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
